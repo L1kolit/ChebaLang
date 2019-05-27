@@ -1,0 +1,14 @@
+Dim a, Dim b;
+Print ('variable a: ');
+Input a;
+Print ('variable b: ');
+Input b;
+If(a > b) {
+    Print (a * a);
+}
+Else {
+    While(a < b) {
+	Print(a);
+	a = a + 1;
+    }
+}
